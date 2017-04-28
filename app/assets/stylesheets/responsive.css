@@ -1,0 +1,227 @@
+
+* { -webkit-font-smoothing: antialiased; text-shadow:none !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*--------------media query css start------------------*/
+@media (min-width:1201px) and (max-width:1320px) {
+.media-heading { font-size:14px;}
+.property-listing .media-body{ font-size:12px; padding:6px;}
+
+}
+
+@media (min-width:1117px) and (max-width:1290px) {
+.resp-vtabs .resp-tabs-list li{ font-size:16px !important;}	
+.left-content{ padding:15px 0 10px 0;}
+.left-content h5{ font-size:18px;}
+.left-content h6{ font-size:15px;}
+.left-content span{ font-size:15px;}
+.left-content p{ font-size:14px;}
+.left-content .list-text{ margin:0 0 5px 0;}
+
+}
+
+@media (min-width:1081px) and (max-width:1116px) {
+.resp-vtabs .resp-tabs-list li{ font-size:15px !important;}	
+.left-content{ padding:15px 0 5px 0;}
+.left-content h5{ font-size:18px;}
+.left-content h6{ font-size:15px;}
+.left-content span{ font-size:15px;}
+.left-content p{ font-size:14px; line-height:19px;}
+.resp-vtabs .left-content ul{ margin-bottom:2px;}
+.left-content .list-text{ margin:0 0 3px 0;}
+
+}
+
+@media (max-width: 1200px) {
+ul.bottom-menu li { font-size:18px; padding-left:5px; padding-right:5px;}
+ul.bottom-menu li span {font-size:15px;}
+.listing-main .col-md-4{ width:50%;}
+.property-listing .media-body{ padding:30px 8px 8px 8px;}
+.circle-main{ margin:0 30px 0 0;}
+.inner-checkradio input[type="radio"] + label { margin:0 15px 0 0;}
+.inner-checkradio input[type="radio"] + label span { margin:-4px 5px 0 0;}
+.search-right p{ font-size:18px;}
+
+}
+
+@media (min-width:320px) and (max-width:1080px) {
+hidden {display:none !important;}
+.visible-md1 {display:block !important;}
+.hidden-md1{ display:none;}
+ul.bottom-menu li {width:10%;}
+.home_bg {background-image:none; background-color:#fff; display:inline-block;}
+.home_bg.overlay::before{ display:none;}
+.navbar-brand { padding:30px 15px 30px;}
+.bottom-bg {display:none;}
+.md-margin-bottom15 {margin-bottom:25px;}
+.md-heading {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #205b97 0%, #2c72b8 50%, #205b97 100%) repeat scroll 0 0;
+  border-bottom: 7px solid #124c86;
+  margin: 0;
+  padding: 25px 15px;
+  word-break: break-all;
+}
+.md-heading h2 { font-family: Lato; font-size:32px; color:#FFF; font-weight:900; margin:0;}
+.md-heading p{ color:#FFF;}
+.md-top-menu-bg { background: #ffffff;
+background: -moz-linear-gradient(top, hsla(0,0%,100%,1) 0%, hsla(211,44%,81%,1) 100%);
+background: -webkit-linear-gradient(top, hsla(0,0%,100%,1) 0%,hsla(211,44%,81%,1) 100%);
+background: linear-gradient(to bottom, hsla(210,44%,93%,1) 0%,hsla(211,44%,81%,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b8cde3',GradientType=0 );}
+.md-top-menu {background:#2d73ba;box-shadow: 0 7px 0 0 #124c86; border-radius: 4px; }
+.md-top-menu h3 { font-family: Oswald; font-size: 52px; padding: 25px; text-align: center; text-shadow: 1px 4px 0 #124c86; text-transform: uppercase;}
+.md-top-menu h3 span { font-family:Oswald; text-transform:uppercase;font-size:48px;}
+.listing-main .col-md-4{ width:50%; float:left;}
+.feature-title h3{ font-size:28px; margin-bottom:30px;}
+.property-listing .media-body{ padding:20px 8px 8px 8px;}
+.mortgage-left{ margin-top:80px; margin-bottom:80px;}
+.mortgage-right{ margin-top:80px; margin-bottom:80px;}
+.search-area{ margin:20px 0;} 
+.search-area .col-md-6{ width:100%;}
+.search-left{ padding:20px; text-align:center;}
+.search-left .form-control{ width:28%;}
+.search-left .btn{ width:30%;}
+.search-left .reset-btn{ width:18%;}
+.search-right{ padding:20px;}
+.search-right p{ margin:0 0 10px 0;}
+.search-position{ position:relative;}
+.search-right .btn{ width:32.3%;}
+.search-region{ max-width:300px;}
+.region-area{ text-align:center;}
+.region-area .btn{ width:100%; padding:10px 12px;}
+.region-area a{ margin:0 0 10px 0;}
+.region-area a.full-width-btn{ width:100%; text-transform:uppercase;}
+.popular-search{ margin-top:80px; margin-bottom:80px;}
+.tab-area{ margin:20px 0;}
+.resp-vtabs .resp-tabs-container{ width:100% !important;}
+.resp-vtabs .resp-tab-content{ background:#ceddec;}
+.resp-tabs-container .col-md-7{ width:100%; background:#FFF;}
+.resp-tabs-container .col-md-5{ width:58.9%; margin-bottom:5px;}
+.resp-vtabs ul.resp-tabs-list{ width:40% !important; min-height:372px; position:absolute; top:0; right:15px;}
+.slider-main{ height:482px;}
+.slider-inner{ height:378px;}
+.jssora05l{ bottom:104px !important;}
+.jssora05r{ bottom:104px !important;}
+.mortgage-right2 .form-control{ padding: 6px 40px 6px 12px;}
+.mortgage-right2 span{ right:75px;}
+.social-icon{ padding:0 100px;}
+
+}
+
+@media (max-width: 991px) {
+#property-listings .property-listing { padding: 5px!important;}
+#property-listings .property-listing a { margin: 0;}
+#property-listings .property-listing .media-body { padding: 10px;}
+.property-listing{ min-height:440px;}
+.property-listing a img{ width:100%;}
+.property-listing .media-body{ padding:8px;}
+.social-icon{ padding:0 70px;}
+.social-icon a{ width:110px; height:110px;}
+.mortgage-left{ margin-top:80px; margin-bottom:0;}
+.mortgage-right{ margin-top:0; margin-bottom:80px;}
+.box-mrg{ margin-top:80px;}
+
+}
+
+@media (min-width: 992px) {
+#property-listings .property-listing img { max-width: 180px;}
+
+}
+
+@media only screen and (max-width: 768px) {
+.resp-tabs-container .col-md-5{ width:100%;}
+.right-content{ min-height:inherit;}
+.right-content .map-area iframe{ height:300px;}
+.mortgage-right2 .form-control{ width:100%;}
+.mortgage-right2 .full-width span{ left:16%;}
+.mortgage-right2 .full-width .down-input2{ width:79.8%;}
+.mortgage-right2 span{ right:20px;}
+
+}
+
+@media (max-width:767px){
+.navbar-header {width:298px;}
+.navbar-brand { padding: 25px 10px;}
+
+.pull-left1{ float:left;}
+.feature-title{ float:left; width:100%;}
+.feature-title h3{ font-size:24px; margin-top:20px; margin-bottom:20px;}
+.property-listing{ min-height:390px;}
+.media-heading { font-size:15px;}
+.pad-lft-rgt-15{ padding-left:15px; padding-right:15px;}
+.circle-main{ margin:0 30px 0 0;}
+.search-right p{ font-size:16px;}
+.search-right .btn{ width:31.3%; font-size:16px;}
+.search-region{ position:inherit; border-left:#ccc 0px solid; max-width:100%; height:auto;}
+.region-area{ text-align:left;}
+.region-area h4{ text-align:center;}
+.region-area .btn{ width:49%;}
+.popular-search p{ font-size:16px;}
+
+}
+
+@media (max-width:640px){
+.property-listing{ min-height:330px;}
+.search-left .form-control{ width:40%;}
+.search-left .btn{ width:40%;}
+.search-left .reset-btn{ width:25%;}
+.search-right .btn{ width:48%;}
+.inner-checkradio { margin:0 8px 15px 8px;}
+.map-area iframe{ height:400px;}
+.region-area .btn{ width:100%;}
+
+}
+
+@media (max-width:480px){
+.md-top-menu h3 {font-size:42px;}
+.md-top-menu h3 span {font-size:38px;}
+.left-content h5{ font-size:16px;}
+.left-content h6{ font-size:14px;}
+.left-content span{ font-size:14px;}
+.left-content p{ font-size:14px;}
+.goback-btn{ font-size:16px; padding:10px 20px;}
+.start-btn{ font-size:16px; padding:10px 20px;}
+.listing-main .col-md-4{ width:100%; float:none;}
+.property-listing{ min-height:inherit;}
+.mortgage-left .mortgage-logo img{ max-width:80%;}
+.mortgage-left label{ font-size:16px;}
+.mortgage-left h4{ font-size:20px;}
+.agent-left{ display:block; margin-right:0; margin-bottom:20px;}
+.agent-right{ display:block; vertical-align:inherit; text-align:center;}
+.agent-right h5{ font-size:15px; margin:0 0 5px 0;}
+.agent-right span{ font-size:14px;}
+.mortgage-left a{ font-size:15px; margin-bottom:20px;}
+.mortgage-left p{ font-size:14px;}
+.mortgage-right h4{ font-size:20px;}
+.mortgage-right label{ font-size:15px;}
+.mortgage-right .form-control{ font-size:15px;}
+.full-width .down-input1{ width:25%;}
+.full-width .down-input2{ width:74%;}
+.full-width span{ left:17%;}
+.mortgage-right span{ font-size:15px;}
+.mortgage-right .btn{ font-size:18px; width:50%;}
+.mortgage-right .btm-text{ font-size:14px; margin:10px 0 0 0;}
+.recalculate h5{ font-size:20px;}
+.circle-main{ margin:0 0 20px 0;}
+.circle-main h5{ font-size:20px;}
+.map-area iframe{ height:300px;}
+.search-left .form-control{ width:44%;}
+.search-left .btn{ width:45%;}
+.search-left .reset-btn{ width:30%;}
+.search-right .btn{ width:100%;}
+.popular-search .btn{ width:100%;}
+
+}
+
+@media (max-width:360px){
+.md-heading h2 { font-size:24px;}
+.mortgage-left{ margin-top:40px; margin-bottom:0;}
+.mortgage-right{ margin-top:0; margin-bottom:40px;}
+.right-content .map-area iframe{ height:230px;}
+.circle-main{ width:180px; height:180px; padding-top:60px;}
+.box-mrg{ margin-top:40px;}
+.search-left .form-group{ margin-bottom:0;}
+.search-left .form-control{ width:100%; margin-bottom:10px;}
+.search-left .btn{ width:100%; margin-top:10px;}
+.search-left .reset-btn{ width:100%; margin-top:0; margin-right:0;}
+
+}

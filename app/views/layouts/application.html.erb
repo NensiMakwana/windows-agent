@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WindowsAgent</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <link href="/app/assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/app/assets/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/app/assets/stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link href="/app/assets/stylesheets/responsive.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    
+    <%= yield %>
+
+    <script src="/assets/javascripts/jquery-1.11.0.min.js"></script> 
+    <script src="/assets/javascripts/bootstrap.min.js"></script> 
+
+  </body>
+</html>
